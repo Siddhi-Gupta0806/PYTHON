@@ -1,0 +1,12 @@
+#1.split bill 
+
+bill= int(input("amount to be paid "))
+people= int(input("no. of people "))
+#optional
+tip= int(input('how much tip would you ike to give? '))
+                
+Total_bill= bill+tip
+
+split= Total_bill/people
+print(split)
+ 
